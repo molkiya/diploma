@@ -104,7 +104,6 @@ def plot_TSNE_projection(title, embedding_df, hue_on, fontsize, labelsize, palet
         plt.show()
     else:
         plt.savefig(savefig_path, bbox_inches='tight', pad_inches=0)
-    fig.show()
 
 #Learning Curves
 
